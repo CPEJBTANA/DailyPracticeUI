@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+$SubtextFonts: "Arial", sans-serif;
+
+.HeroContentRight {
+  height: 80%;
+  width: 50%;
+  display: flex;
+  //outline: 2px solid red;
+  flex-direction: column;
+  @media screen and (max-width: 412px) {
+    height: 90%;
+  }
+  .HeroContentRightCard {
+    width: 100%;
+    height: 40%;
+    margin-top: 5%;
+    // outline: 2px solid violet;
+    // border: 2px solid black;
+    border-radius: 10px;
+
+    .RightText {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      height: 80%;
+      width: 70%;
+      //outline: 2px solid green;
+
+      H1 {
+        font-size: 4rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        @media (max-width: 1024px) {
+          font-size: 2rem;
+        }
+        @media (max-width: 1314px) {
+          font-size: 2.5rem;
+        }
+        @media screen and (max-width: 412px) {
+          font-size: 2rem;
+        }
+      }
+
+      P {
+        font-family: $SubtextFonts;
+        color: rgb(255, 255, 255);
+        @media screen and (max-width: 1024px) {
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+
+  .HeroContentGalleryCard {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    //border: 2px solid black;
+    border-radius: 10px;
+
+    .LowerRightText {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      height: 20%;
+      width: 45%;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      @media screen and (max-width: 1024px) {
+        font-size: 0.75rem;
+      }
+      //outline: 2px solid green;
+    }
+
+    .LowerRightPreviews {
+      height: 80%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; // This ensures spacing between items
+      align-items: center;
+      //outline: 2px solid green;
+
+      .Item {
+        width: 20%;
+        height: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: ease-in-out 0.5s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        border: 2px solid black;
+        @media screen and (max-width: 1024px) {
+          width: 30%;
+        }
+        @media screen and (max-width: 1314px) {
+          width: 40%;
+          margin-left: 5px;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 10px;
+          border: 2px solid black;
+        }
+      }
+      .Item:hover {
+        transform: scale(1.1);
+        transition: transform 0.5s;
+      }
+    }
+  }
+}
