@@ -62,6 +62,11 @@
   flex-direction: column;
   border-radius: 10px;
 }
+@media (max-width: 1280px) {
+  .HeroContentRight .HeroContentGalleryCard {
+    margin-top: 15px;
+  }
+}
 .HeroContentRight .HeroContentGalleryCard .LowerRightText {
   display: flex;
   flex-direction: column;
@@ -99,6 +104,13 @@
 @media screen and (max-width: 1024px) {
   .HeroContentRight .HeroContentGalleryCard .LowerRightPreviews .Item {
     width: 30%;
+  }
+}
+@media (max-width: 1280px) {
+  .HeroContentRight .HeroContentGalleryCard .LowerRightPreviews .Item {
+    height: 90%;
+    width: 30%;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 1314px) {

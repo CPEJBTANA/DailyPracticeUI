@@ -61,6 +61,9 @@ $SubtextFonts: "Arial", sans-serif;
     flex-direction: column;
     //border: 2px solid black;
     border-radius: 10px;
+    @media (max-width: 1280px) {
+      margin-top: 15px;
+    }
 
     .LowerRightText {
       display: flex;
@@ -98,6 +101,11 @@ $SubtextFonts: "Arial", sans-serif;
         border: 2px solid black;
         @media screen and (max-width: 1024px) {
           width: 30%;
+        }
+        @media (max-width: 1280px) {
+          height: 90%;
+          width: 30%;
+          margin-top: 20px;
         }
         @media screen and (max-width: 1314px) {
           width: 40%;

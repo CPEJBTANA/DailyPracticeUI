@@ -1,0 +1,124 @@
+.RightPart {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 15px;
+}
+.RightPart .TextArea {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.RightPart .TextArea h1 {
+  color: rgb(30, 63, 120);
+  font-size: 6.25rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+@media screen and (max-width: 1024px) {
+  .RightPart .TextArea h1 {
+    font-size: 1.5rem;
+  }
+}
+.RightPart .TextArea h3 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+@media screen and (max-width: 1024px) {
+  .RightPart .TextArea h3 {
+    font-size: 1rem;
+  }
+}
+.RightPart .TextArea .Paragraph {
+  width: 80%;
+  margin-top: 30px;
+}
+.RightPart .TextArea .Paragraph p {
+  color: rgb(30, 63, 120);
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media screen and (max-width: 1024px) {
+  .RightPart .TextArea .Paragraph p {
+    font-size: 1rem;
+  }
+}
+.RightPart .SocMeds {
+  margin-left: 35px;
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.RightPart .SocMeds .Item {
+  width: 30%;
+  height: 20%;
+  margin-top: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./Images/background.jpg);
+  background-size: cover;
+}
+
+.MainPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+}
+
+.MainContainer {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.LeftPart {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.LeftPart .LeftIcons {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.LeftPart .LeftIcons .Icons {
+  width: 65%;
+  height: 30%;
+  margin-top: 10px;
+}
+.LeftPart .LeftIcons .Icons img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=mainstyle.css.map */
