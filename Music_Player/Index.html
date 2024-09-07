@@ -21,6 +21,9 @@
         <li class="NavItem">
           <a href=""> Settings </a>
         </li>
+        <li class="NavItem">
+          <button id="darkModeToggle">Toggle Mode</button>
+        </li>
       </ul>
     </header>
     <section class="Hero">
@@ -63,5 +66,11 @@
         </div>
       </div>
     </section>
+    <script>
+      const toggle = document.getElementById("darkModeToggle");
+      toggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+      });
+    </script>
   </body>
 </html>
