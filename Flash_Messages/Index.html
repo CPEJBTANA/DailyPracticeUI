@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Styling/FlashMessageStyle.css" />
+  </head>
+  <body>
+    <section class="container-fluid">
+      <div class="MainContainer">
+        <div class="LeftFlash">
+          <div class="Icon">
+            <img
+              src="./Styling/Images/—Pngtree—cartoon pixel sword illustration_4661982.png"
+              alt="Icon"
+            />
+          </div>
+          <div class="text">
+            <h1 id="Proceed">WELL DONE!</h1>
+            <p>You've completed this stage successfully.</p>
+            <button class="btn btn-primary custom-btn" onclick="FlashMessage()">
+              Proceed
+            </button>
+          </div>
+        </div>
+        <div class="RightFlash">
+          <div class="Icon">
+            <img
+              src="./Styling/Images/—Pngtree—pixelated broken heart vector_15725695.png"
+              alt="Icon"
+            />
+          </div>
+          <div class="text">
+            <h1>GAME OVER</h1>
+            <p>Game over! Try again to improve your score.</p>
+            <button class="btn btn-primary btn-md custom-btn">Restart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script>
+    function FlashMessage() {
+      let Proceed = document.getElementById("Proceed");
+
+      // Check the current text and toggle between two states
+      if (Proceed.innerHTML === "WELL DONE!") {
+        Proceed.innerHTML = "Wahahahahah dikopa nacode";
+      } else {
+        Proceed.innerHTML = "WELL DONE!";
+      }
+    }
+  </script>
+</html>

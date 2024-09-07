@@ -1,0 +1,157 @@
+@import "./Mixins";
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap");
+
+$FontMain: "BioRhyme", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-fluid {
+  height: 100%;
+  //.outline: 2px solid red;
+  margin: auto;
+  background-image: url("./Images/wallpaperflare.com_wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.MainContainer {
+  width: 90%;
+  height: 100%;
+  //outline: 2px solid green;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10%;
+  flex-wrap: wrap;
+}
+
+.LeftFlash {
+  width: 30%;
+  height: 65%;
+  @include BorderFX;
+  @include Centering;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-family: $FontMain;
+    font-size: 3vw;
+    color: rgb(0, 123, 145);
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+  }
+  .Icon {
+    @include iconsize;
+    //outline: 2px solid yellow;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+.RightFlash {
+  width: 30%;
+  height: 65%;
+
+  @include BorderFX;
+  @include Centering;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    font-family: $FontMain;
+    font-size: 3vw;
+    color: rgb(0, 123, 145);
+  }
+  p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+  }
+  .Icon {
+    @include iconsize;
+    //outline: 2px solid yellow;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+.text {
+  width: 90%;
+  height: 40%;
+  //outline: 2px solid rgb(0, 123, 145);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.custom-btn {
+  width: 50%;
+  height: 30%;
+  background-color: rgb(0, 123, 145);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6vw;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  &:hover {
+    background-color: rgb(0, 123, 145);
+    color: white;
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 375px) {
+  .MainContainer {
+    flex-direction: column; // Stack items vertically
+    align-items: center; // Center items
+    row-gap: 10px; // Add space between stacked elements
+  }
+
+  .LeftFlash,
+  .RightFlash {
+    width: 40%; // Make them wider when stacked
+    height: auto; // Adjust height as needed
+  }
+
+  h1 {
+    font-size: 6vw; // Adjust font size for smaller screens
+  }
+
+  p {
+    font-size: 4vw; // Adjust paragraph size
+  }
+}
+
+.SecondSample {
+  height: 100%;
+  //.outline: 2px solid red;
+  margin: auto;
+  background-image: url("./Images//wallpaperflare.com_wallpaper\ \(1\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
