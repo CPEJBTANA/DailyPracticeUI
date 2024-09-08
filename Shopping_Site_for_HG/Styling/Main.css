@@ -74,7 +74,6 @@
 .TextContainer {
   width: 65vw;
   height: auto;
-  outline: 2px solid black;
   margin: auto;
   padding-top: 5vh;
   display: flex;
@@ -83,7 +82,6 @@
   width: 60%;
   height: auto;
   display: flex;
-  outline: 2px solid rgb(180, 0, 0);
   gap: 15px;
   justify-content: left;
   align-items: center;
@@ -105,13 +103,63 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  outline: 2px solid black;
   margin: auto;
 }
 .Price h1 {
   font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
+}
+
+.Origin {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Origin .OriginText {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -10rem;
+  text-align: justify;
+}
+.Origin .OriginText p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  margin: 1rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 5vh;
+  margin-bottom: 13vh;
+}
+
+td,
+th {
+  border: 3px solid #000000;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:hover {
+  background-color: #bebebe;
 }
 
 html,

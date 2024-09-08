@@ -1,6 +1,8 @@
 $MainHeadColor: #000000;
 $Maintextcolor: #4e4e4e;
 @import "./MoneyTalks";
+@import "./origin";
+@import "./sizechart";
 
 html,
 body {
@@ -10,7 +12,7 @@ body {
 }
 
 * {
-  //outline: 2px solid red;
+  //// outline: 2px solid red;
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
@@ -36,7 +38,7 @@ header {
   background-color: #ffffff;
   width: 100%;
   text-align: center;
-  // outline: 2px solid rgb(114, 0, 0);
+  // // outline: 2px solid rgb(114, 0, 0);
   height: 12.5vh;
   display: flex;
   text-align: center;
@@ -49,7 +51,7 @@ header {
   .Navigation {
     display: flex;
     flex-direction: row;
-    // outline: 2px solid black;
+    // // outline: 2px solid black;
     width: 95%;
     margin: auto;
     align-items: center;
@@ -61,7 +63,7 @@ header {
     .NavIcon {
       width: auto;
       margin: auto;
-      // outline: 2px solid blue;
+      // // outline: 2px solid blue;
       column-gap: 5%;
 
       h1 {
@@ -79,7 +81,7 @@ header {
       width: 50%;
       margin: auto;
       text-align: center;
-      // outline: 2px solid blue;
+      // // outline: 2px solid blue;
       column-gap: 5%;
       margin-right: 50%;
 
@@ -92,7 +94,7 @@ header {
         text-decoration: none;
         list-style: none;
         list-style-type: none;
-        // outline: 2px solid black;
+        // // outline: 2px solid black;
 
         transition: 0.5s;
         &:hover {
@@ -113,7 +115,7 @@ header {
   text-align: center;
   z-index: 1;
 
-  // outline: 2px solid black;
+  // // outline: 2px solid black;
 
   h1 {
     font-size: 6vw;
@@ -130,7 +132,7 @@ header {
   width: 100%;
   background-color: #ffffff;
   text-align: center;
-  // outline: 2px solid black;
+  // // outline: 2px solid black;
 
   p {
     font-size: 1vw;
