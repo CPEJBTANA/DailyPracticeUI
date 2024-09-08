@@ -1,0 +1,131 @@
+.MoneyTalks {
+  width: 100%;
+  height: auto;
+
+  color: whitesmoke;
+}
+
+.Title {
+  width: 100%;
+  height: 20vh;
+  // // outline: 2px solid black;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  H1 {
+    font-size: 3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $MainHeadColor;
+  }
+
+  H5 {
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $Maintextcolor;
+  }
+}
+
+.MainImage {
+  width: 65vw;
+  height: auto;
+
+  //// // outline: 2px solid black;
+  margin: auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateY(px);
+  }
+}
+
+.SubPictures {
+  width: 65vw;
+  height: 40vh;
+  display: flex;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+  // // outline: 2px solid black;
+  margin: auto;
+  flex-wrap: wrap;
+
+  .SubImage {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // // outline: 2px solid black;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h3 {
+      font-size: 1.5vw;
+      font-family: Arial, Helvetica, sans-serif;
+      color: $MainHeadColor;
+    }
+
+    p {
+      font-size: 1vw;
+      font-family: Arial, Helvetica, sans-serif;
+      color: $Maintextcolor;
+    }
+  }
+}
+
+.TextContainer {
+  width: 65vw;
+  height: auto;
+  // outline: 2px solid black;
+  margin: auto;
+  padding-top: 5vh;
+  display: flex;
+
+  .MainText {
+    width: 60%;
+    height: auto;
+    display: flex;
+    // outline: 2px solid rgb(180, 0, 0);
+    gap: 15px;
+
+    justify-content: left;
+    align-items: center;
+
+    button {
+      width: 20%;
+      height: 5vh;
+      background-color: rgb(0, 0, 0);
+      color: whitesmoke;
+      font-size: 2vh;
+      font-family: Arial, Helvetica, sans-serif;
+      border: none;
+
+      cursor: pointer;
+    }
+  }
+}
+
+.Price {
+  width: 33vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // outline: 2px solid black;
+  margin: auto;
+
+  h1 {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $MainHeadColor;
+  }
+}

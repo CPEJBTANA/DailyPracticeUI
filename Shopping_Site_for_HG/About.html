@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styling/Main.css" />
+    <script>
+        // Save scroll position before the page unloads
+        window.addEventListener('beforeunload', function() {
+          localStorage.setItem('scrollPosition', window.scrollY);
+        });
+        
+        // Restore scroll position when the page fully loads
+        window.addEventListener('load', function() {
+          const scrollPosition = localStorage.getItem('scrollPosition');
+          if (scrollPosition) {
+            window.scrollTo(0, parseInt(scrollPosition, 10));
+          }
+        });
+
+
+
+        function ShowPriceFunction(){
+          let Display = document.querySelector('.Show');
+
+          if (Display.innerHTML === "White and Black / Sm - XL / 550 Pesos") {
+            Display.innerHTML = "";
+          } else {
+            Display.innerHTML = "White and Black / Sm - XL / 550 Pesos";
+          }
+        }
+         
+        </script>
+  </head>
+  <body>
+
+   
+    <header>
+    <section class="Navigation" style="position: absolute;">
+      <div class="NavIcon"><h1>HARDGRAIL </h1>   </div>
+      <div class="MainNav">
+        <a href="./Index.html">Home</a>
+        <a href="./shop.html">Shop</a>
+        <a href="./About.html">About</a>
+        <a href="./sizechart.html">Size Chart</a>
+</div>
+<div class="carticon"> <img src="./Styling/images/cart.png" alt="Cart Icon" style="width: 24px; height: 24px;"></div>
+    </header>
+    </section>
+
+    <section class="Origin">
+        <div class="OriginText">
+         <p>Founded in Santa Rita, Pampanga in 2020, during the pandemic, the brand draws significant influence from modern streetwear icons like Virgil Abloh, Hiroshi Fujiwara, and more. Its designs reflect the raw lifestyle of its audience, emphasizing bold typography as a core element, while fusing streetwear aesthetics with refined, couture-inspired details.</p>
+         
+    </section>
+
+<div class="footer">
+  <div class="footericon">
+    <p>Santa Rita, Pampanga</p>
+    <p>est. 2020</p>
+    <p>#Hardgrail4ever</p>
+  </div>
+</div>
+
+
+  </body>
+</html>
