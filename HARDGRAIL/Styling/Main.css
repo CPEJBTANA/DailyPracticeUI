@@ -1,0 +1,237 @@
+.MoneyTalks {
+  width: 100%;
+  height: auto;
+  color: whitesmoke;
+}
+
+.Title {
+  width: 100%;
+  height: 20vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.Title H1 {
+  font-size: 3.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+.Title H5 {
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e4e4e;
+}
+
+.MainImage {
+  width: 65vw;
+  height: auto;
+  margin: auto;
+}
+.MainImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: translateY(px);
+}
+
+.SubPictures {
+  width: 65vw;
+  height: 40vh;
+  display: flex;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.SubPictures .SubImage {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SubPictures .SubImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.SubPictures .SubImage h3 {
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+.SubPictures .SubImage p {
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e4e4e;
+}
+
+.TextContainer {
+  width: 65vw;
+  height: auto;
+  outline: 2px solid black;
+  margin: auto;
+  padding-top: 5vh;
+  display: flex;
+}
+.TextContainer .MainText {
+  width: 60%;
+  height: auto;
+  display: flex;
+  outline: 2px solid rgb(180, 0, 0);
+  gap: 15px;
+  justify-content: left;
+  align-items: center;
+}
+.TextContainer .MainText button {
+  width: 20%;
+  height: 5vh;
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  font-size: 2vh;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.Price {
+  width: 33vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 2px solid black;
+  margin: auto;
+}
+.Price h1 {
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  color: rgb(92, 92, 91);
+}
+* a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.PINAKACONTAINER {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./images/contacts2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: visible;
+}
+
+header {
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+  height: 12.5vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header .Navigation {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  height: 100%;
+  padding: 10px;
+}
+header .Navigation .NavIcon {
+  width: auto;
+  margin: auto;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+}
+header .Navigation .NavIcon h1 {
+  font-size: 2.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+header .Navigation .MainNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  margin-right: 50%;
+}
+header .Navigation .MainNav a {
+  font-size: 1vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  transition: 0.5s;
+}
+header .Navigation .MainNav a:hover {
+  background-color: #000000;
+}
+
+.HeroStrip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  z-index: 1;
+}
+.HeroStrip h1 {
+  font-size: 6vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e4e4e;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5vh;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+.footer p {
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}/*# sourceMappingURL=Main.css.map */

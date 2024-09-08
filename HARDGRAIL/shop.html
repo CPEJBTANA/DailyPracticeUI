@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styling/Main.css" />
+    <script>
+        // Save scroll position before the page unloads
+        window.addEventListener('beforeunload', function() {
+          localStorage.setItem('scrollPosition', window.scrollY);
+        });
+        
+        // Restore scroll position when the page fully loads
+        window.addEventListener('load', function() {
+          const scrollPosition = localStorage.getItem('scrollPosition');
+          if (scrollPosition) {
+            window.scrollTo(0, parseInt(scrollPosition, 10));
+          }
+        });
+
+
+
+        function ShowPriceFunction(){
+          let Display = document.querySelector('.Show');
+
+          if (Display.innerHTML === "White and Black / Sm - XL / 550 Pesos") {
+            Display.innerHTML = "";
+          } else {
+            Display.innerHTML = "White and Black / Sm - XL / 550 Pesos";
+          }
+        }
+         
+        </script>
+  </head>
+  <body>
+
+    <section class="PINAKACONTAINER"> 
+    <header>
+    <section class="Navigation">
+      <div class="NavIcon"><h1>HARDGRAIL </h1>   </div>
+      <div class="MainNav">
+        <a href="#">Home</a>
+        <a href="./shop.html">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Size Chart</a>
+</div>
+      <div class="carticon">icon</div>
+    </header>
+    </section>
+
+</section>
+<div class="HeroStrip">
+    <h1>MAY GOD BLE$$ ME</h1>
+</div>
+
+<section class="MoneyTalks">
+  <div class="Title">
+    <H1>MONEY TALKS</H1>
+    <h5>Only for the day 1z.</h5>
+  </div>
+  <div class="MainImage">
+   <img src="./Styling/images/MT/84954884_121718772694808_3112205720125177856_n.jpg">
+  </div>
+  <div class="SubPictures">
+    <div class="SubImage">
+      <img src="./Styling/images/MT/97997935_170484517818233_5427044173268123648_n.jpg">
+    </div>
+    <div class="SubImage">
+      <img src="./Styling/images/MT/B2.jpg">
+    </div>
+  </div>
+  <div class="TextContainer">
+    <div class="MainText">
+    
+  <button id="MoneyTalkButton" onclick="ShowPriceFunction()">More Info</button>
+  </div>
+   <div class ="Price">
+     <h1 Class="Show"></h1>
+  </div>
+
+  
+
+
+</section>
+<div class="HeroStrip">
+  <h1 style="color: darkmagenta;"> + VIBRATIONS</h1>
+</div>
+
+<section class="MoneyTalks">
+  <div class="Title">
+    <H1>POSITIVE VIBES</H1>
+    <h5 style="color: darkmagenta;">Only for the day 1z.</h5>
+  </div>
+  <div class="MainImage">
+   <img src="./Styling/images/pvibes/m.jpg">
+  </div>
+  <div class="SubPictures">
+    <div class="SubImage">
+      <img src="./Styling/images/pvibes/s2.jpg">
+    </div>
+    <div class="SubImage">
+      <img src="./Styling/images/pvibes/102689784_177529027113782_7873005162971059008_n.jpg">
+    </div>
+  </div>
+  <div class="TextContainer">
+    <div class="MainText">
+    
+  <button id="MoneyTalkButton" onclick="ShowPriceFunction()">More Info</button>
+  </div>
+   <div class ="Price">
+     <h1 Class="Show"></h1>
+  </div>
+</section>
+
+<div class="HeroStrip">
+  <h1 style="color: rgb(255, 255, 255); text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);"> DELIVER ME FROM EVIL </h1>
+</div>
+
+
+<section class="MoneyTalks" style="background-color: black;">
+  <div class="Title" style="text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);">
+    <H1 style="color: rgb(255, 255, 255);">REFLECTIVES V1</H1>
+    <h5 style="color: white;">Only for the day 1z.</h5>
+  </div>
+  <div class="MainImage">
+   <img src="./Styling/images/r1/m2.jpg">
+  </div>
+  <div class="SubPictures">
+    <div class="SubImage">
+      <img src="./Styling/images/r1/s1.jpg">
+    </div>
+    <div class="SubImage">
+      <img src="./Styling/images/r1/s2.jpg">
+    </div>
+  </div>
+  <div class="TextContainer">
+    <div class="MainText">
+    
+  <button id="MoneyTalkButton" onclick="ShowPriceFunction()" style="color: rgb(0, 0, 0); background-color: white;">More Info</button>
+  </div>
+   <div class ="Price">
+     <h1 Class="Show" style="color: white;"></h1>
+  </div>
+</section>
+
+<div class="HeroStrip" style="background-image: url(./Styling/images/colors/c2.jpg); background-repeat: no-repeat; background-size: cover;">
+  <h1 style="color: rgb(255, 255, 255); text-shadow: 2px 2px 0 red, -2px -2px 0 orange, 2px -2px 0 yellow, -2px 2px 0 green, 2px 2px 0 blue, -2px -2px 0 indigo, 2px -2px 0 violet;">COLORS</h1>
+</div>
+
+<section class="MoneyTalks">
+  <div class="Title">
+    <H1>HOLOGRAPHIXXX</H1>
+    <h5 style="color: darkmagenta;">life is full of colors</h5>
+  </div>
+  <div class="MainImage">
+   <img src="./Styling/images/colors/m1.jpg">
+  </div>
+  <div class="SubPictures">
+    <div class="SubImage">
+      <img src="./Styling/images/colors/s1.jpg">
+    </div>
+    <div class="SubImage">
+      <img src="./Styling/images/colors/s2.jpg">
+    </div>
+  </div>
+  <div class="TextContainer">
+    <div class="MainText">
+    
+  <button id="MoneyTalkButton" onclick="ShowPriceFunction()">More Info</button>
+  </div>
+   <div class ="Price">
+     <h1 Class="Show"></h1>
+  </div>
+</section>
+
+  </body>
+</html>
