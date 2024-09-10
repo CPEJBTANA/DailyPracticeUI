@@ -60,4 +60,18 @@ body:hover {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center;
   margin-top: 0;
+}
+
+#TimerFunc {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+@media (max-width: 1280px) {
+  h1 {
+    font-size: 1em;
+  }
+  #TimerFunc {
+    font-size: 1em;
+  }
 }/*# sourceMappingURL=Main.css.map */
