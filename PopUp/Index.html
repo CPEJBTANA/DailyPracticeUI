@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styling/Main.css" />
+  </head>
+  <body>
+    <div
+      class="MainContainer"
+      id="background"
+      onclick="closePopupOnBackground(event)"
+    >
+      <div class="Header">
+        <button class="ButtonD" type="submit" onclick="opennn()">
+          <h1>BIG RED FUCKING BUTTON</h1>
+        </button>
+      </div>
+    </div>
+
+    <div class="Popup" id="POPSHOW">
+      <h3>CURIOSITY KILLS THE CAT</h3>
+      <button type="submit" class="CLOSE" onclick="closePopup()">CLOSE</button>
+    </div>
+
+    <script>
+      let Popup = document.getElementById("POPSHOW");
+      let Background = document.getElementById("background");
+
+      function opennn() {
+        Popup.classList.add("active");
+        Background.classList.add("blurred");
+      }
+
+      function closePopup() {
+        Popup.classList.remove("active");
+        Background.classList.remove("blurred");
+      }
+      function closePopupOnBackground(event) {
+        // Close popup only if the click happens on the background, not on the button or popup itself
+        if (event.target === Background) {
+          closePopup();
+        }
+      }
+    </script>
+  </body>
+</html>

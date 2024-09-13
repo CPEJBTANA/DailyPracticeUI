@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  //outline: 2px solid bisque;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.MainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  display: flex;
+
+  align-items: center;
+  height: 50%;
+  width: 60%;
+
+  //outline: 2px solid rgb(180, 99, 0);
+
+  justify-content: space-around;
+}
+
+.ButtonD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+
+  //outline: 2px solid rgb(180, 99, 0);
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 2.25rem;
+}
+
+.Popup {
+  width: 20%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(250, 215, 215);
+  transform: translate(-50%, -50%) scale(0.8); // Initially scaled down
+  visibility: hidden;
+  position: fixed;
+  transition: transform 0.5s ease, opacity 0.5s ease; // Smooth scaling and fading
+  opacity: 0;
+  text-align: center;
+
+  .CLOSE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30%;
+    background-color: rgb(0, 198, 224);
+    outline: 2px solid rgb(180, 99, 0);
+    cursor: pointer;
+  }
+}
+
+.active {
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1); // Scales back to normal size
+  opacity: 1; // Fully visible
+}
+
+.blurred {
+  filter: blur(15px); // The amount of blur effect
+}
