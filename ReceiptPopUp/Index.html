@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styling/Main.css" />
+  </head>
+  <body>
+    <div class="ContainerMain">
+      <div class="Receipt">
+        <button onclick="OpenPopUp()">Confirm Purchase</button>
+      </div>
+    </div>
+    <div class="ReceiptPopUp" id="popup">
+      <h1>Receipt</h1>
+      <p>Thank you for your purchase</p>
+      <p>Order Number: 123456</p>
+      <p>Order Date: 12/12/2020</p>
+      <p>Order Total: $100.00</p>
+      <button onclick="ClosePopUp()">Close</button>
+    </div>
+
+    <script>
+      const PopUp = document.getElementById("popup");
+
+      function OpenPopUp() {
+        PopUp.classList.add("active");
+      }
+
+      function ClosePopUp() {
+        PopUp.classList.remove("active");
+      }
+    </script>
+  </body>
+</html>
