@@ -14,6 +14,7 @@ Boho Kantina:
 ![image](https://github.com/user-attachments/assets/21d40736-7c80-4f2a-8e42-c511ca247a4e)
 ![image](https://github.com/user-attachments/assets/19953aa6-190e-408f-be2d-51983c4a430a)
 ![image](https://github.com/user-attachments/assets/0ffdf1b0-7a81-4e17-a6ca-dc07a728d1fb)
+![image](https://github.com/user-attachments/assets/d79bedc5-1876-4b6c-9cd8-356795b72a2e)
 
 Rick Owens MockSite:
 ![image](https://github.com/user-attachments/assets/8f102988-d93b-4f0f-a646-b6d5360b98dc)
@@ -30,6 +31,37 @@ Visual Illness Web Portfolio:
 ![image](https://github.com/user-attachments/assets/84d55662-a51d-4818-8fed-265d699b2914)
 
 Creative Works portfolio:
+![image](https://github.com/user-attachments/assets/8e9ee829-2141-4cc3-88ec-b8a27b738c02)
+![image](https://github.com/user-attachments/assets/37ff8fc1-767f-48f2-9bce-e38bfe7229ec)
+![image](https://github.com/user-attachments/assets/761c31ce-8f57-420f-ae24-e5d519ab7d0b)
+
+HardGrail Brand Site:
+![image](https://github.com/user-attachments/assets/db29f661-a55f-4da1-976d-481e4cffa157)
+![image](https://github.com/user-attachments/assets/a4c1fef3-5fea-49ce-ba34-473c48618cc4)
+![image](https://github.com/user-attachments/assets/a974ce52-77db-4e36-873b-4356dae06717)
+![image](https://github.com/user-attachments/assets/5660f6a6-0373-46a5-b404-e9aa983f8e6b)
+
+404 Page:
+![image](https://github.com/user-attachments/assets/6d3f3a6c-6100-4c50-9c1f-971b2b383a27)
+
+
+
+Messaging App layout:
+![image](https://github.com/user-attachments/assets/db2b7366-5299-4d77-a991-d754a58a30bd)
+
+
+Vocatune Music Player:
+![image](https://github.com/user-attachments/assets/5735e1e9-36a9-4587-9eed-695c6c007218)
+
+Flash Messages:
+![image](https://github.com/user-attachments/assets/9b606c86-8378-436c-a65b-379824fa3fe6)
+
+JS Switch:
+![Uploading image.png…]()
+
+
+
+
 
 
 
