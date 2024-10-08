@@ -1,4 +1,5 @@
-# DailyPracticeUI![Uploading 1.png…]()
+SIDE PROJECTS:
+![image](https://github.com/user-attachments/assets/7c2b3576-39a2-4ddb-8e43-57b8aec5dc4f)
 
 
 **Ferrari Website:**
