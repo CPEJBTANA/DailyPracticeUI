@@ -1,4 +1,5 @@
-SIDE PROJECTS:
+**SIDE PROJECTS:**
+
 ![image](https://github.com/user-attachments/assets/7c2b3576-39a2-4ddb-8e43-57b8aec5dc4f)
 
 
@@ -66,8 +67,13 @@ SIDE PROJECTS:
 
 **Hero Page:**
 ![image](https://github.com/user-attachments/assets/9af1a5e1-6745-418f-b6c8-dd5f9c45ee3c)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/2fa30b9d-48a1-435f-9a8e-7fa1b8bab7f1)
 
+**Pricing Section:**
+![image](https://github.com/user-attachments/assets/4f3097b1-084f-4146-9ec4-9c67c1415212)
+
+Menu Card:
+![Uploading image.png…]()
 
 
 
