@@ -57,7 +57,16 @@ Flash Messages:
 ![image](https://github.com/user-attachments/assets/9b606c86-8378-436c-a65b-379824fa3fe6)
 
 JS Switch:
+![image](https://github.com/user-attachments/assets/8dd45c22-2dc3-44d0-90f4-2636cc77151c)
+
+Receipt PopUp:
+![image](https://github.com/user-attachments/assets/205128ee-1c8c-4aca-9367-48601aa7e77a)
+![image](https://github.com/user-attachments/assets/648a04d1-c040-442c-b69b-055310403afa)
+
+Hero Page:
+![image](https://github.com/user-attachments/assets/9af1a5e1-6745-418f-b6c8-dd5f9c45ee3c)
 ![Uploading image.png…]()
+
 
 
 
